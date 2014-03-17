@@ -140,9 +140,9 @@
 <li>大学：
 
   <?php
-$connect = mysql_connect("localhost", "b34_hayase", "b34_hayase");
+$connect = mysql_connect("localhost", "******", "******");
 mysql_query("SET NAMES utf8", $connect);
-$univecon = mysql_db_query("b34_hayase", "select distinct university from post_tbl"); 
+$univecon = mysql_db_query("******", "select distinct university from post_tbl"); 
 echo "<select name='university'>";
 while(true){
   $unive = mysql_fetch_assoc($univecon);
